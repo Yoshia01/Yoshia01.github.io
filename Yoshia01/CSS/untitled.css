@@ -1,0 +1,65 @@
+.img-box {
+		flex-flow: wrap;
+	}
+
+	.img-box li {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-right: 0;
+		margin-top: 30px;
+	}
+	.img-box li:first-child {
+		margin-top: -30px;
+	}
+
+	.img-box li span {
+		font-size: 16px;
+		margin-top: 20px;
+	}
+
+    .contact .form {
+	   flex-flow: column nowrap;
+	   margin:30px 0; 
+
+	}
+.form .name,.form .email,.form .inquiry {
+width: 80%
+}
+
+.form .name,.form .email {
+height: 30px;
+}
+
+.form .inquiry {
+height: 100px;
+}	
+
+.form-left {
+	margin-right: 0;
+}
+
+.form-right {
+	margin-top: 20px;
+}
+
+.contact button{
+	font-size: 20px;
+	padding: 5px 40px;
+    margin-bottom: 100px;
+}
+
+
+/* footer */
+footer {
+	display: flex;
+	justify-content: center;
+}
+
+
+footer .footer-right {
+	margin-right:  0;
+}
+
+}
+
