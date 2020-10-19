@@ -1,7 +1,7 @@
 /* header */
 
 header{
-	background-color: #1dace0;
+	background-color: #800080;
 	color: #fff;
 	display: flex;
 	justify-content: space-between;
@@ -57,6 +57,10 @@ background-size: cover;
 
 .title { 
 	font-size: 64px;
+	color: #DA8E00;
+  background: -webkit-linear-gradient(-45deg, #F7DE05, #DA8E00, #EDAC06, #F7DE05, #ECB802, #DAAF08, #B67B03, #DA8E00, #EDAC06, #F7DE05, #ECB802, #EDAC06);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .guideline{
 	margin-top: 50px;
@@ -115,6 +119,10 @@ border: 3px solid : rgba(236,227,35,.3);
 	font-size: 36px;
 	text-align: center;
 	margin-top: 20px;
+	color: #FF8C00;
+  background: -webkit-linear-gradient(0deg, #40E0D0, #FF8C00, #FF0080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .img-box{
@@ -350,7 +358,7 @@ footer .footer-right {
     /* welcomeここまで　*/
 	
 	/* curriculum */
-
+	
 	.img-box {
 		flex-flow: column nowrap;
 	}
