@@ -5,8 +5,8 @@ header{
 	color: #fff;
 	display: flex;
 	justify-content: space-between;
-	font-size: 18px;
-	padding: 5px 0;
+	font-size: 30px;
+	padding: 20px 0;
 }
 
 .icon{
@@ -228,15 +228,14 @@ footer.footer-right{
 /* レスポンシブ対応　*/
 /*後ろの　；　付けない*/
 
-/* 小型PC用　*/
+/* ------小型PC用------　*/
 @media screen and (max-width: 1280px){
 
 .img-box li{
     margin-right: 30px;
+ }
 }
-
-}
-/* タブレット　*/
+/* -----タブレット-----　*/
 @media screen and (max-width: 960px){
 body{
 	min-width: 375px;}
@@ -303,7 +302,7 @@ footer .footer-right {
 }
 
 
-/* スマフォ　*/
+/* ------スマフォ------　*/
 @media screen and (max-width: 480px){
 	body{
 		min-width: 375px;
